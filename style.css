@@ -826,3 +826,15 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
+
+.cart_content__address__total_amount {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 96px;
+}
+
+.single_cart_item {
+    width: 652px;
+    height: 306px;
+    filter: drop-shadow(17px 19px 24px rgba(0, 0, 0, 0.13));
+}

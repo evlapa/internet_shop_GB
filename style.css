@@ -931,3 +931,24 @@ nav {
     color: #656565;
 
 }
+
+.address__total_amount {
+    width: 360px;
+}
+
+.shipping_address__cart_page h1 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+}
+
+.shipping_address__cart_page input {
+    border: #A4A4A4 1px solid;
+    display: block;
+    padding: 13px 16px;
+    width: 360px;
+    margin-top: 21px;
+}

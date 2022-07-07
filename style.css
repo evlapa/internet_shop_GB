@@ -951,4 +951,117 @@ nav {
     padding: 13px 16px;
     width: 360px;
     margin-top: 21px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+}
+
+.shipping_address__cart_page input::placeholder {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #222222;
+}
+
+.get_quote_button {
+    border: 1px solid #A4A4A4;
+    padding: 10px 14px 12px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    color: #4A4A4A;
+    cursor: pointer;
+    margin-top: 24px;
+    width: fit-content;
+}
+
+.total_amount__cart_page {
+    background-color: #F5F3F3;
+    width: 360px;
+    padding: 42px 43px;
+    box-sizing: border-box;
+    margin-top: 58px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.total_amount__cart_page h1 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #4A4A4A;
+}
+
+.total_amount__cart_page h2 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+    margin-top: 12px;
+}
+
+.total_amount__cart_page span::before {
+    content: '$';
+    margin-left: 20px;
+}
+
+.total_amount__cart_page h2 span {
+    color: #F16D7F;
+    font-weight: 400;
+}
+
+.total_amount__cart_page hr {
+    background-color: #E2E2E2;
+    border: none;
+    width: 275px;
+    height: 1px;
+    margin-top: 21px;
+}
+
+.checkout_button__cart_page {
+    background: #F16D7F;
+    padding: 15px;
+    margin-top: 17px;
+    align-self: center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.clear_cart__continue_shopping__buttons {
+    margin-top: 73px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.clear_cart_button,
+.continue_shopping_button {
+    border: 1px solid #A4A4A4;
+    background-color: #fff;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    padding: 16px;
+    justify-content: center;
+    margin-bottom: 129px;
+    cursor: pointer;
 }
